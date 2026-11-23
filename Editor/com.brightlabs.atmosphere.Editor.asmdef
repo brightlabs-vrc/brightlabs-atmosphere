@@ -1,0 +1,24 @@
+{
+  "name": "com.brightlabs.atmosphere.Editor",
+  "rootNamespace": "BrightLabs.Vendor.Atmosphere.Editor",
+  "references": [
+    "com.brightlabs.atmosphere.Runtime",
+    "UdonSharp.Runtime",
+    "UdonSharp.Editor",
+    "VRC.Udon",
+    "VRC.SDK3",
+    "VRC.SDKBase",
+    "VRC.SDKBase.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

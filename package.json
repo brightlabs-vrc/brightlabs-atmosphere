@@ -1,0 +1,22 @@
+{
+  "name": "com.brightlabs.atmosphere",
+  "displayName": "BrightLabs Atmosphere",
+  "version": "0.1.0",
+  "unity": "2022.3",
+  "description": "Reusable VRChat world atmosphere: day/night skybox, screen-space weather overlay, and UdonSharp-driven weather/time controller.",
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "Bright Labs",
+    "url": "https://github.com/brightlabs-vrc"
+  },
+  "vpmDependencies": {
+    "com.vrchat.worlds": ">=3.10.5"
+  },
+  "samples": [
+    {
+      "displayName": "Nakayama Integration",
+      "description": "Nakayama-specific staff adapter, forecast board, and particle wiring examples. Not required for core atmosphere.",
+      "path": "Samples~/NakayamaIntegration"
+    }
+  ]
+}
